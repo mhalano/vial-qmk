@@ -52,18 +52,7 @@
 #    undef ENABLE_RGB_MATRIX_HUE_WAVE
 #    undef ENABLE_RGB_MATRIX_EFFECT_MAX
 
-#define RGB_DISABLE_TIMEOUT 600000
-
-/*
- * 17 RGB effects are pre-defined in /keyboards/xbows/nature/config.h
- * add a #undef line below to disable unused RGB effect to release space, e.g.,
-//  #undef ENABLE_RGB_MATRIX_BAND_SPIRAL_VAL     // Single hue spinning spiral fades brightness
-
- * See https://docs.qmk.fm/#/feature_rgb_matrix?id=rgb-matrix-effects for all QMK RGB effects
- * add a #define line below to enable other RGB effect, e.g.,
- #define ENABLE_RGB_MATRIX_BAND_SPIRAL_VAL     // Single hue spinning spiral fades brightness
-*/
-//  #undef ENABLE_RGB_MATRIX_BAND_SPIRAL_VAL     // Single hue spinning spiral fades brightness
+#define RGB_MATRIX_TIMEOUT  600000
 #endif
 
 #define CAPS_WORD_IDLE_TIMEOUT 5000

@@ -81,3 +81,5 @@ QMK_SETTINGS = no
 # set to no to disable RGB
 # see config.h to enable/disable some RGB effects
 RGB_MATRIX_ENABLE = yes
+
+CAPS_WORD_ENABLE = yes
